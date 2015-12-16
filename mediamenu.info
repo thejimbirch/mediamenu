@@ -1,0 +1,5 @@
+name = Media Menu
+description = This module organizes the tabs on the Media browser.
+version = "7.x-1.0"
+core = "7.x"
+package = Media

@@ -1,10 +1,14 @@
 <?php
+
 /**
- * Change Order of Media Browser Tabs
- *
+ * @file
+ * Changes Order of Media Browser Tabs.
+ */
+
+/**
  * Implements hook_media_browser_plugin_info_alter().
  */
-function zmediamenu_media_browser_plugin_info_alter(&$info) {
+function mediamenu_media_browser_plugin_info_alter(&$info) {
   $info['media_default--media_browser_1']['weight'] = '-10';
   $info['media_default--media_browser_my_files']['weight'] = '-9';
   $info['media_internet']['weight'] = '-8';
